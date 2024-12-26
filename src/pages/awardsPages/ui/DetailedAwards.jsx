@@ -3,6 +3,7 @@ import { Academic } from '../ui/Awards_Academic';
 import { Republican } from '../ui/Awards_Republic';
 import "../style/Detailed_Awards.scss";
 
+
 const DetailedAwards = () => {
     const { id, category } = useParams(); 
     const awardIndex = parseInt(id);  
